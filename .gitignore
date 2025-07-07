@@ -1,3 +1,16 @@
-__pycache__
-.env
+# .gitignore
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
 venv/
+
+# Ignore environment variables file
+.env
+
+# Ignore other common files
+*.log
+*.tmp
+*.swp
